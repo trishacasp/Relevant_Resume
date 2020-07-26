@@ -27,10 +27,14 @@ footer{
   background-color:black;
   opacity:.9;
   color:white;
-  border:none;
+  border:1px solid white;
   cursor:pointer;
   text-transform:uppercase;
 }
+.footer1 button:hover{
+  opacity:.75;
+}
+
 .footer2{
   padding:50px;
   background-color:black;
