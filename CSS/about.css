@@ -1,0 +1,19 @@
+#dalecarnegie{
+  max-width: 40%;
+  height:auto;
+}
+#claire{
+  max-width:30%;
+  height:auto;
+}
+
+section{
+  display:block;
+  align-items: center;
+  padding:20px;
+  justify-content: center;
+}
+
+#abtclaire{
+  float:right;
+}

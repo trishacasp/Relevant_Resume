@@ -1,82 +1,75 @@
-body{
-  grid-template-columns: 100%;
-  grid-template-rows: 20% 60% 20% ;
-  grid-template-areas:
-  "header header header header"
-  "main main main main"
-  "footer footer footer footer";
-  font-family:Arial,sans-serif;
-  overflow:scroll;
-}
-section{
-  grid-area: main;
-  border: 2px solid black;
-}
-nav{
-  grid-area: header;
-  background-color: black;
-  justify-content: center;
-  align-items: center;
 
-}
-nav a{
-  color:white;
-  text-decoration:none;
-  opacity: .7;
-  margin:10px;
-
-}
-nav a:hover{
-  opacity:1;
+article{
+  display:block;
+  margin: 50px;
+  font-family: adobe-garamond-pro;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  color: rgba(26,26,26,.7);
 }
 
-nav button{
-  float: right;
-  background-color:black;
-  border: 2px solid white;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  opacity:.7;
-  font-family:Arial,sans-serif;
-  transition-duration: .4s;
-}
-nav button:hover{
-  opacity:1;
-  background-color:white;
+h1{
+  text-align:center;
+  font-size: 40px;
   color:black;
-  outline: 2px solid black;
-
+}
+h2{
+  text-align: center;
+  font-size:30px;
+  font-style: italic;
+  font-weight: 200;
+  color:black;
 }
 
-footer{
-  grid-area: footer;
-  border: 2px solid blue;
+#mission{
+  margin-left:22%;
+  margin-right:22%;
+}
+ul{
+  list-style-type:none;
+}
+.check{
+  color:#1b998b;
 }
 
+#about, #services{
+  display:flex;
+  justify-content: space-around;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:7%;
+  padding:10px;
+}
+#abtcontent,#servicecontent{
+  text-align: center;
+}
+img{
+  max-width:50%;
+  height:auto;
+}
 .button{
-  background-color:black;
-  border: 2px solid black;
+  font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:300;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  line-height:1em;
+  background-color: #1b998b;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 13px;
   margin: 4px 2px;
   cursor: pointer;
-  opacity:.7;
-  font-family:Arial,sans-serif;
   transition-duration: .4s;
-}
-.button:hover{
+  border-radius: 30px;
   opacity:1;
-  background-color:white;
-  color:black;
+}
 
+.button:hover{
+  opacity:.7;
 }

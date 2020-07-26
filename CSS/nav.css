@@ -1,0 +1,114 @@
+body{
+  display:grid;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  margin:0;
+  font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav{
+  background-color: black;
+  overflow:hidden;
+  justify-content:space-between;
+  padding:40px 20px;
+  display:inline;
+}
+
+#logo{
+  margin-left:40px;
+}
+
+nav .navbar{
+  float:right;
+  font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:600;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  line-height:1em;
+  font-size:13px;
+
+}
+
+nav .navbar a{
+  float:left;
+  color:white;
+  text-align:center;
+  padding:14px 20px;
+  text-decoration:none;
+  opacity: .8;
+
+}
+
+.dropdown{
+  float:left;
+  overflow:hidden;
+}
+.dropdown .dropbtn{
+  font-size: inherit;
+  font-family:inherit;
+  font-weight:inherit;
+  letter-spacing:inherit;
+  text-transform:inherit;
+  line-height:inherit;
+  opacity: .8;
+  border:none;
+  outline:none;
+  color:white;
+  padding:14px 16px;
+  background-color: inherit;
+  font-family:inherit;
+  margin:0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn{
+  opacity:1;
+  cursor:pointer;
+}
+
+.dropdown-content{
+  display:none;
+  position:absolute;
+  background-color:#f9f9f9;
+  min-width:160px;
+  box-shadow:0px 8px 16px 0px;
+  z-index:1;
+  opacity:1 !Important;
+}
+
+.dropdown-content a{
+  float:none;
+  color:black !Important;
+  padding:12px 16px;
+  text-decoration:none;
+  display:block;
+  text-align:left;
+}
+.dropdown-content a:hover{
+  background-color:#ddd;
+}
+.dropdown:hover .dropdown-content{
+  display:grid;
+}
+#navbutt{
+  background-color:black;
+  border:2px solid white;
+  color:white;
+  padding:14px;
+  border-radius:30px;
+  margin-top:0px;
+  margin-left:20px;
+  font-size: inherit;
+  font-family:inherit;
+  font-weight:inherit;
+  letter-spacing:inherit;
+  text-transform:inherit;
+  line-height:inherit;
+  opacity: .8;
+}
+#navbutt:hover{
+  background-color: white;
+  color:black;
+  cursor:pointer;
+  transition:.4s;
+  opacity:1;
+}
