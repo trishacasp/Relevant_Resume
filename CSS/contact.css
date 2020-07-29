@@ -1,0 +1,118 @@
+#main{
+  display:flex;
+}
+#sidenav{
+  justify-content: center;
+  width:90%;
+  height:10%;
+  display:grid;
+  margin-top:10%;
+  margin-left:0%;
+  font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+#sidenav a{
+  font-size:14px;
+  text-decoration:none;
+  color:black;
+  margin-bottom:10px;
+}
+#sidenav a:hover{
+  color:#1b998b;
+}
+
+h4{
+  font-size:20px;
+  font-weight:600;
+  color:#1b998b;
+}
+
+#claire{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+  padding:20px;
+}
+
+#restofcnt {
+    display:flex;
+    font-family: adobe-garamond-pro;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(26,26,26,.7);
+    margin-right:10%;
+    font-weight:400;
+  }
+#picture{
+      width:100%;
+}
+#writingprocess p{
+  font-size:18px;
+  padding:15px;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+ul{
+  list-style-type:none;
+}
+.check{
+  color:#1b998b;
+}
+#writingprocess li{
+  padding: 5px;
+  font-size:18px;
+  font-weight:bold;
+}
+#needic{
+  font-style: italic;
+}
+#needb{
+  font-weight: bold;
+}
+section h1, section h2{
+  text-align:center;
+  color:black;
+  font-family: adobe-garamond-pro;
+}
+#picture .socialbtns{
+  display:flex !Important;
+  margin-left:auto;
+  margin-right:auto;
+  width:40%;
+  justify-content: space-around;
+}
+#picture  .socialbtns button{
+  background-color:white;
+  color:black;
+  font-size:25px;
+  padding:15px;
+}
+#picture .socialbtns button:hover{
+  color:#1b998b;
+}
+.email{
+  font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:300;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  line-height:1em;
+  background-color: #1b998b;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: .4s;
+  border-radius: 30px;
+  opacity:1;
+  border: none;
+}
+
+.email:hover{
+  opacity:.7;
+}

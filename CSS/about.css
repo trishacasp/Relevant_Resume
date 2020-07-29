@@ -3,22 +3,20 @@
 }
 #sidenav{
   justify-content: center;
-  text-align: center;
   width:90%;
+  height:10%;
   display:grid;
-  margin-bottom:98%;
   margin-top:10%;
+  margin-left:0%;
   font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
   letter-spacing:2px;
   text-transform:uppercase;
-  line-height:1em;
 }
 #sidenav a{
-  padding:5px;
-  margin-bottom:15px;
-  font-size:16px;
+  font-size:14px;
   text-decoration:none;
   color:black;
+  margin-bottom:10px;
 }
 #sidenav a:hover{
   color:#1b998b;
@@ -54,7 +52,7 @@ h4{
     letter-spacing: 0px;
     line-height: 1.6em;
     color: rgba(26,26,26,.7);
-    margin-left:20%;
+    margin-left:10%;
     margin-right:15%;
   }
 
@@ -67,24 +65,24 @@ h4{
       letter-spacing: 0px;
       line-height: 1.6em;
       color: rgba(26,26,26,.7);
-      margin-left:8%;
+      margin-left:0%;
       margin-right:10%;
     }
 
-ul{
+#proexp ul{
   list-style-type:none;
 }
 .check{
   color:#1b998b;
 }
-li{
+#proexp li{
   padding: 5px;
 }
 #needic{
   font-style: italic;
 }
 #needb{
-  font-weight:600;
+  font-weight:bold;
 }
 
 section h1, section h3{
@@ -108,7 +106,7 @@ section h1, section h3{
   text-align:center;
 }
 #abtclaire .socialbtns button:hover{
-  opacity:.4;
+  color:#1b998b;
 }
 
 #imgcap{
