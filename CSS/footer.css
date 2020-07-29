@@ -14,13 +14,14 @@ footer{
 }
 .footer1 h1{
     margin-top:30px;
+    font-weight:100;
 }
 .footer1 button{
   padding:15px;
   margin-bottom:40px;
   margin-top:20px;
   text-decoration: none;
-  font-family:inherit;
+  font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight:100;
   text-transform:inherit;
   letter-spacing:2px;
@@ -37,6 +38,8 @@ footer{
 
 .footer2{
   padding:50px;
+  padding-left:15%;
+  padding-right:15%;
   background-color:black;
   opacity:.9;
   display:flex;
@@ -63,6 +66,7 @@ footer{
 .socialbtns{
   margin:auto auto;
   display:flex !Important;
+
 }
 
 .icon {

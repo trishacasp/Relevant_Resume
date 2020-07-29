@@ -1,19 +1,116 @@
-#dalecarnegie{
-  max-width: 40%;
-  height:auto;
+#main{
+  display:flex;
 }
-#claire{
-  max-width:30%;
-  height:auto;
+#sidenav{
+  justify-content: center;
+  text-align: center;
+  width:90%;
+  display:grid;
+  margin-bottom:98%;
+  margin-top:10%;
+  font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  line-height:1em;
+}
+#sidenav a{
+  padding:5px;
+  margin-bottom:15px;
+  font-size:16px;
+  text-decoration:none;
+  color:black;
+}
+#sidenav a:hover{
+  color:#1b998b;
 }
 
-section{
+h4{
+  font-size:20px;
+  font-weight:600;
+  color:#1b998b;
+}
+
+#claire{
   display:block;
-  align-items: center;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
   padding:20px;
-  justify-content: center;
+}
+#dalecarnegie{
+  max-width:50%;
+  height:auto;
+  margin-bottom:50%;
+  padding-right: 50px;
 }
 
 #abtclaire{
-  float:right;
+    display:block;
+    margin: 50px;
+    font-family: adobe-garamond-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: rgba(26,26,26,.7);
+    margin-left:20%;
+    margin-right:15%;
+  }
+
+#proexp{
+      display:block;
+      font-family: adobe-garamond-pro;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      letter-spacing: 0px;
+      line-height: 1.6em;
+      color: rgba(26,26,26,.7);
+      margin-left:8%;
+      margin-right:10%;
+    }
+
+ul{
+  list-style-type:none;
+}
+.check{
+  color:#1b998b;
+}
+li{
+  padding: 5px;
+}
+#needic{
+  font-style: italic;
+}
+#needb{
+  font-weight:600;
+}
+
+section h1, section h3{
+  text-align:center;
+}
+
+#abtclaire .socialbtns{
+  display:flex !Important;
+  margin-left:auto;
+  margin-right:auto;
+  width:30%;
+  justify-content: space-around;
+
+}
+#abtclaire .socialbtns button{
+  background-color:white;
+  color:black;
+  font-size:25px;
+  padding-top:50px;
+  width:7%;
+  text-align:center;
+}
+#abtclaire .socialbtns button:hover{
+  opacity:.4;
+}
+
+#imgcap{
+  display:flex!Important;
 }
